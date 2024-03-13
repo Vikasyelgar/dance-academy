@@ -1,0 +1,21 @@
+doctype html
+html 
+  head 
+    title Sprinkle Dance Academy 
+    block scripts   
+    block style
+  body 
+    nav#navbar.top
+      ul
+        div#logo
+            img(src="../logo.png")
+            | HDA 
+        li #[a(href="/") Home]
+        li #[a(href="/") About]
+        li #[a(href="/") Services]
+        li #[a(href="/") Class Info]
+        li #[a(href="/contact") Contact Us]
+        
+    block content 
+    footer#footer
+      | Copyright 2019 | All Rights Reserved
